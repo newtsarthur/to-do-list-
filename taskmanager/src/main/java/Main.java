@@ -24,7 +24,7 @@ public class Main {
                 case 2 -> taskManager.listTasks();
                 case 3 -> taskManager.editTask(scanner);
                 case 4 -> taskManager.deleteTask(scanner);
-                case 5 -> System.out.println("Opção inválida. Tente de novo");
+                case 5 -> System.out.println("Opção inválida. Programa encerrado");
             }
         } while (option != 5);
 
